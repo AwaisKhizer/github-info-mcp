@@ -1,5 +1,7 @@
 # 🧠 GitHub Info MCP Tool
 
+[![smithery badge](https://smithery.ai/badge/@AwaisKhizer/github-info-mcp)](https://smithery.ai/server/@AwaisKhizer/github-info-mcp)
+
 This project is a **Model Context Protocol (MCP)** server that exposes tools for interacting with the GitHub API. It allows LLMs to fetch GitHub repository information, contributors, and latest commits via function calls.
 
 ## 🚀 Features
@@ -20,7 +22,17 @@ This project is a **Model Context Protocol (MCP)** server that exposes tools for
 
 ## 📦 Installation
 
+### Installing via Smithery
+
+To install github-info-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@AwaisKhizer/github-info-mcp):
+
+```bash
+npx -y @smithery/cli install @AwaisKhizer/github-info-mcp --client claude
+```
+
+### Manual Installation
 ```bash
 git clone https://github.com/YOUR_USERNAME/github-info-mcp.git
 cd github-info-mcp
 pip install -r requirements.txt
+```
